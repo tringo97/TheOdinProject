@@ -1,0 +1,76 @@
+body {
+	font-family: arial,sans-serif;
+}
+.header ul {
+float: right;
+margin: 5px;
+}
+
+.header ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 5px;
+	float: left;
+}
+
+.header ul li a {
+	text-decoration: none;
+	color: #5b5757;
+	margin: 5px;
+}
+
+.header ul li a .profile {
+	width: 35px;
+	height: 35px;
+	border-radius: 100px;
+}
+
+.middle {
+
+	width: 750px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0 0 -375px;
+	text-align: center;
+}
+
+.middle img {
+	width: 280px;
+	display: block;
+	margin: auto;
+	margin-bottom: 25px;
+
+}
+
+input {
+	outline: none;
+}
+
+input[type=text] {
+	background: transparent;
+	width: 550px;
+	height: 40px;
+	margin: 15px;
+	border-radius: 3px;
+	display: block;
+	margin: auto;
+	border: none;
+	padding: 4px;
+	font: 1.4em Arial, sans-serif;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+input[type=submit] {
+	border: 1px solid rgb(244, 244, 244);
+	background: rgb(244, 244, 244);
+	color: rgb(117, 117, 117);
+	 font: bold 1em Arial, sans-serif;
+	width: 175px;
+	height: 35px;
+	margin: 20px;
+	padding: 0.6em 1.2em;
+	text-align: center;
+}
+
