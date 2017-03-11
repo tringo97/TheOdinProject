@@ -54,15 +54,18 @@ footer img {
 }
 
 .highlighted {
-    background-color: #434343;
+    background-color: black;
 }
 
 button {
-    color: black;
+    color: #6e6e76;
     border-radius: 5px;
     border: 1px solid rgb(245,245,245);
-    width: 75px;
-    height: 25px;
-    margin-top: 25px;
+    background-color: floralwhite;
+    font-size: 20px;
+    width: 90px;
+    height: 40px;
+    padding: 5px;
+    margin: 25px 20px 0px 20px;
 }
 

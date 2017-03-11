@@ -4,11 +4,15 @@ $(document).ready(function(){
    makeGrid(30);
 });
 
-function clearAll() {
+function reset() {
    $('.block').removeClass("highlighted");
     var newGridSize = prompt("what is the size of your new grid?");
     $('.wrapper').empty();
     makeGrid(newGridSize);
+};
+
+function clearAll() {
+  $('.block').removeClass("highlighted");  
 };
 
 function makeGrid(gridSize) {
